@@ -57,8 +57,15 @@ struct ContentView: View {
             
             // じゃんけんをする！ボタン
             Button(action: {
-                // 次のじゃんけんへ
-                answerNumber = answerNumber + 1
+
+                var newAnswerNumber = 0
+                
+                repeat {
+                    newAnswerNumber = Int.random(in: 1...3)
+                } while answerNumber == newAnswerNumber
+                
+                answerNumber = newAnswerNumber
+                
             }) {
                 // ボタンに表示する文字を指定
                 Text("じゃんけんをする!")
