@@ -13,6 +13,8 @@
 		DF17AB26289FF29200041C1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF17AB14289FF29100041C1E /* ContentView.swift */; };
 		DF17AB27289FF29200041C1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF17AB15289FF29200041C1E /* Assets.xcassets */; };
 		DF17AB28289FF29200041C1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF17AB15289FF29200041C1E /* Assets.xcassets */; };
+		DF17AB32289FF5B600041C1E /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF17AB31289FF5B600041C1E /* SoundPlayer.swift */; };
+		DF17AB33289FF5B600041C1E /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF17AB31289FF5B600041C1E /* SoundPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		DF17AB1A289FF29200041C1E /* MyMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF17AB20289FF29200041C1E /* MyMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF17AB22289FF29200041C1E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		DF17AB31289FF5B600041C1E /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			children = (
 				DF17AB13289FF29100041C1E /* MyMusicApp.swift */,
 				DF17AB14289FF29100041C1E /* ContentView.swift */,
+				DF17AB31289FF5B600041C1E /* SoundPlayer.swift */,
 				DF17AB15289FF29200041C1E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -177,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF17AB25289FF29200041C1E /* ContentView.swift in Sources */,
+				DF17AB32289FF5B600041C1E /* SoundPlayer.swift in Sources */,
 				DF17AB23289FF29200041C1E /* MyMusicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF17AB26289FF29200041C1E /* ContentView.swift in Sources */,
+				DF17AB33289FF5B600041C1E /* SoundPlayer.swift in Sources */,
 				DF17AB24289FF29200041C1E /* MyMusicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
