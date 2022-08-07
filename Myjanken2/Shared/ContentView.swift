@@ -80,6 +80,7 @@ struct ContentView: View {
             }) {
                 // ボタンに表示する文字を指定
                 Text("じゃんけんをする!")
+                    .multilineTextAlignment(.center)
                     .frame(maxWidth: .infinity)
                     .frame(height: 100)
                     .font(.title)
@@ -100,3 +101,5 @@ struct ContentView_Previews: PreviewProvider {
         }
     }
 }
+
+
